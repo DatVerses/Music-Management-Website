@@ -6,6 +6,7 @@ import MusicPlayer from './components/player/MusicPlayer';
 import HomePage from './components/pages/HomePage';
 import SearchPage from './components/pages/SearchPage';
 import PlaylistPage from './components/pages/PlaylistPage';
+import ChatBot from './components/chat/ChatBot';
 import { playlists } from './data/playlists';
 
 function App() {
@@ -45,6 +46,8 @@ function App() {
             
             <MusicPlayer />
           </div>
+          
+          <ChatBot />
         </div>
       </PlayerProvider>
     </ThemeProvider>
