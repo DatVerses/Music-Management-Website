@@ -10,7 +10,6 @@ interface Message {
   sender: 'user' | 'bot';
   timestamp: Date;
 }
-
 const ChatBot: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
